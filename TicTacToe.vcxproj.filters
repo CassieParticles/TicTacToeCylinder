@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Code\Main\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Code\Main\TicTacToe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Code\Main\GenCylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Code\Utils\Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Code\Utils\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Code\Main\BoardRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Code\Main\TextureSampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Code\Main\TicTacToe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Code\Main\GenCylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Code\Utils\ProgramShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Code\Utils\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Code\Main\BoardRender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Code\Main\TextureSampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\Board.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Cross.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Nought.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Cylinder\sideVertex.glsl" />
+    <None Include="Shaders\Cylinder\sideFragment.glsl" />
+    <None Include="Shaders\Cylinder\capVertex.glsl" />
+    <None Include="Shaders\Cylinder\capFragment.glsl" />
+    <None Include="Shaders\Board\pieceVertex.glsl" />
+    <None Include="Shaders\Board\pieceFragment.glsl" />
+    <None Include="Shaders\Screen\vertex.glsl" />
+    <None Include="Shaders\Screen\fragment.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\Shaders\Board\pieceFragment.glsl" />
+    <Text Include="src\Shaders\Board\pieceVertex.glsl" />
+    <Text Include="src\Shaders\Cylinder\capFragment.glsl" />
+    <Text Include="src\Shaders\Cylinder\sideVertex.glsl" />
+    <Text Include="src\Shaders\Cylinder\sideFragment.glsl" />
+    <Text Include="src\Shaders\Cylinder\capVertex.glsl" />
+    <Text Include="src\Shaders\Screen\fragment.glsl" />
+    <Text Include="src\Shaders\Screen\vertex.glsl" />
+  </ItemGroup>
+</Project>
